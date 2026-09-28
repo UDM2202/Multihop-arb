@@ -1,0 +1,19 @@
+{
+  "name": "arb-executor-tests",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "setup": "ts-node tests/setup.ts",
+    "test": "ts-node tests/execute-route.test.ts"
+  },
+  "dependencies": {
+    "@solana/web3.js": "^1.95.3",
+    "@solana/spl-token": "^0.4.9",
+    "borsh": "^2.0.0"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4",
+    "@types/node": "^22.5.0"
+  }
+}

@@ -1,0 +1,29 @@
+#!/bin/bash
+solana-test-validator \
+  --reset \
+  --clone-feature-set \
+  --clone-upgradeable-program 675kPX9MHTjS2zt1qfr1NYHuzeLXfQM9H24wFSUt1Mp8 \
+  --clone-upgradeable-program KLend2g3cP87fffoy8q1mQqGKjrxjC8boSyAYavgmjD \
+  --clone 58oQChx4yWmvKdwLLZzBi4ChoCc2fqCUWBkwMihLYQo2 \
+  --clone 5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1 \
+  --clone DQyrAcCrDXQ7NeoqGgDCZwBvWDcYmFCjSb9JtteuvPpz \
+  --clone HLmqeL62xR1QoZ1HKKbXRrdN1p3phKpxRMb2VVopvBBz \
+  --clone 5oAvct85WyF7Sj73VYHbyFJkdRJ28D8m4z4Sxjvzuc6n \
+  --clone FzNRkDo1o1oeBud2J9Rz66FqQCyxjpmxcao4iFsewEGa \
+  --clone tAoQ7jLRJdtrw1vhZzoCHxHfsWp3cdn9SqnPvP1LVMT \
+  --clone AVs9TA4nWDzfPJE9gGVNJMVhcQy3V9PGazuz33BfG2RA \
+  --clone Em6rHi68trYgBFyJ5261A2nhwuQWfLcirgzZZYoRcrkX \
+  --clone 3mEFzHsJyu2Cpjrz6zPmTzP7uoLFj9SbbecGVzzkL1mJ \
+  --clone 6UmmUiYoBjSrhakAobJw8BvkmJtDVxaeBtbt7rxWo1mg \
+  --clone FdmKUE4UMiJYFK5ogCngHzShuVKrFXBamPWcewDr31th \
+  --clone Eqrhxd7bDUCH3MepKmdVkgwazXRzY6iHhEoBpY7yAohk \
+  --clone 4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R \
+  --clone 7u3HeHxYDLhnCoErrtycNokbQYbWGzLs6JSDqGAv5PfF \
+  --clone D6q6wuQSrifJKZYpR1M8R4YawnLDtDsMmWM1NbBmgJ59 \
+  --clone Bgq7trRgVMeq33yt235zM2onQ4bRDBsY5EWiTetF4qw6 \
+  --clone 9DrvZvyWh1HuAoZxvYWMvkf2XCzryCpGgHqrMjyDWpmo \
+  --clone BbDUrk1bVtSixgQsPLBJFZEF7mwGstnD5joA1WzYvYFX \
+  --clone EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v \
+  --clone So11111111111111111111111111111111111111112 \
+  --account AX8ob5dAtLNFn7tUQhDzhbBru9wqrSWVFYPCNKApCV8a tests/fabricated-usdc-account.json \
+  --url mainnet-beta

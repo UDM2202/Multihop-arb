@@ -1,0 +1,6 @@
+[provider]
+cluster = "devnet"
+wallet = "~/.config/solana/id.json"
+
+[programs.devnet]
+arb_executor = "DvhAbrZDNsveNYUHCvEEgESdssw8eNeJNZMPMXfAHAeN"
